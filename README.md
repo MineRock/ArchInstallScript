@@ -13,5 +13,6 @@ This tells you whether the efivars directory exists on the system. If it's UEFI,
 
 $ How to uncomment the locale in locale.gen?
 > Since this is a personal script, I will be using en_US. You can change the code to your locale by checking it in /etc/locale.gen.
+
 sed -i '/en_US.UTF-8 UTF-8/s/^#//g' locale.gen
 This will uncomment the line.
